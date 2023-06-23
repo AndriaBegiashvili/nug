@@ -1,0 +1,31 @@
+.arrow_button {
+    margin-top: 20px;
+    display: flex;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 10px 16px;
+    border-radius: 8px;
+    width: 130px;
+    height: 42px;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+    font-size: 14px;
+}
+.arrow{
+  display: flex;
+  align-items: center;
+}
+
+.arrow_button > .arrow {
+    width: 6px;
+    height: 6px;
+    position: relative;
+    margin: 0 7px;
+    transition: all .3s ease;
+}
+.arrow_button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transition: 0.2s;
+}
